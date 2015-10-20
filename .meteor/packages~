@@ -41,5 +41,6 @@ telescope:theme-hubble
 telescope:update-prompt
 
 ############ Your Custom Packages ############
-my-custom-package
 
+# my-custom-package
+webbroi:telescope-theme-iris

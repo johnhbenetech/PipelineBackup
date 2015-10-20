@@ -7,8 +7,8 @@ $red: #DD3416;
 }
 
 .post-category{
-  display:none;
-  font-size:8px;
+  display:inline-block;
+  font-size:12px;
   background:#eee;
   padding:3px 5px 1px 5px;
   text-transform:uppercase;

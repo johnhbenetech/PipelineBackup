@@ -12,7 +12,9 @@ serveAPI = function(terms){
       date: post.postedAt,
       url: url,
       pageUrl: Posts.getPageUrl(post, true),
-      guid: post._id
+      guid: post._id,
+      Impact: post.Impact,
+      categories: Posts.getCategories(post)
     };
 
     if(post.body)

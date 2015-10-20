@@ -1,9 +1,135 @@
 // Custom Post Field
 
 Posts.addField({
-  fieldName: 'customPostField',
+  fieldName: 'Impact',
   fieldSchema: {
-    type: String,
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Need',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Mission Fit',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Legality',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Current Money',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Future Money',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Cost',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Talent',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Technical Risk',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Internal Champion',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Community of Users',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Community of Partners',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Portfolio Fit',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Exit Strategies',
+  fieldSchema: {
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'Existing Data',
+  fieldSchema: {
+    type: Number,
     optional: true,
     editableBy: ["member", "admin"]
   }
