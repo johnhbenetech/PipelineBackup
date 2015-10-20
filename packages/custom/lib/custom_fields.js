@@ -1,8 +1,11 @@
 // Custom Post Field
 
 Posts.addField({
-  fieldName: 'Impact',
+  fieldName: 'impact',
   fieldSchema: {
+    label: "Impact",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -10,8 +13,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Need',
+  fieldName: 'need',
   fieldSchema: {
+    label: "Need",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -19,8 +25,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Mission Fit',
+  fieldName: 'missionfit',
   fieldSchema: {
+    label: "Mission Fit",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -28,8 +37,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Legality',
+  fieldName: 'legality',
   fieldSchema: {
+    label: "Legality",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -37,8 +49,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Current Money',
+  fieldName: 'currentmoney',
   fieldSchema: {
+    label: "Current Money",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -46,8 +61,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Future Money',
+  fieldName: 'futuremoney',
   fieldSchema: {
+    label: "Future Money",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -55,8 +73,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Cost',
+  fieldName: 'cost',
   fieldSchema: {
+    label: "Cost",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -64,8 +85,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Talent',
+  fieldName: 'talent',
   fieldSchema: {
+    label: "Talent",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -73,8 +97,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Technical Risk',
+  fieldName: 'technicalrisk',
   fieldSchema: {
+    label: "Technical Risk",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -82,8 +109,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Internal Champion',
+  fieldName: 'internalchampion',
   fieldSchema: {
+    label: "Internal Champion",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -91,8 +121,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Community of Users',
+  fieldName: 'communityofusers',
   fieldSchema: {
+    label: "Community of Users",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -100,8 +133,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Community of Partners',
+  fieldName: 'communityofpartners',
   fieldSchema: {
+    label: "Community of Partners",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -109,8 +145,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Portfolio Fit',
+  fieldName: 'portfoliofit',
   fieldSchema: {
+    label: "Portfolio Fit",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -118,8 +157,11 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Exit Strategies',
+  fieldName: 'exitstrategies',
   fieldSchema: {
+    label: "Exit Strategies",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -127,45 +169,15 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'Existing Data',
+  fieldName: 'existingdata',
   fieldSchema: {
+    label: "Existing Data",
+    min: 0,
+    max: 2,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
   }
 });
 
-// Custom Comment Field
 
-Comments.addField({
-  fieldName: 'customCommentField',
-  fieldSchema: {
-    type: String,
-    optional: true,
-    editableBy: ["member", "admin"]
-  }
-});
-
-// Custom User Field
-
-Users.addField({
-  fieldName: 'customUserField',
-  fieldSchema: {
-    type: String,
-    optional: true,
-    editableBy: ["member", "admin"]
-  }
-});
-
-// Custom Setting Field
-
-Settings.addField({
-  fieldName: "customSettingsField",
-  fieldSchema: {
-    type: String,
-    optional: true,
-    autoform: {
-      group: "customGroup"
-    }
-  }
-});
