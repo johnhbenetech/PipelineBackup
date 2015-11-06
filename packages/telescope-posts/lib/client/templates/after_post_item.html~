@@ -1,2 +1,3 @@
 <template name="after_post_item">
+<div>"Hello"</div>
 </template>

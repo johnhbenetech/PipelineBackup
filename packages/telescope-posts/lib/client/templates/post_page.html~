@@ -12,6 +12,7 @@
           {{/if}}
           <div class="single-post grid">
             <div class="posts posts-list">
+              Hello
               {{> post_item post=this}}
             </div>
             {{#if body}}

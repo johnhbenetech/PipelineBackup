@@ -6,6 +6,7 @@ Posts.addField({
     label: "Impact",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -179,4 +180,5 @@ Posts.addField({
     editableBy: ["member", "admin"]
   }
 });
+
 

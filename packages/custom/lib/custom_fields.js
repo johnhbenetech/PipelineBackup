@@ -6,6 +6,7 @@ Posts.addField({
     label: "Impact",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -18,6 +19,7 @@ Posts.addField({
     label: "Need",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -30,6 +32,7 @@ Posts.addField({
     label: "Mission Fit",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -42,6 +45,7 @@ Posts.addField({
     label: "Legality",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -54,6 +58,7 @@ Posts.addField({
     label: "Current Money",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -66,6 +71,7 @@ Posts.addField({
     label: "Future Money",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -78,6 +84,7 @@ Posts.addField({
     label: "Cost",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -90,6 +97,7 @@ Posts.addField({
     label: "Talent",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -102,6 +110,7 @@ Posts.addField({
     label: "Technical Risk",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -114,6 +123,7 @@ Posts.addField({
     label: "Internal Champion",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -126,6 +136,7 @@ Posts.addField({
     label: "Community of Users",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -138,6 +149,7 @@ Posts.addField({
     label: "Community of Partners",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -150,6 +162,7 @@ Posts.addField({
     label: "Portfolio Fit",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -162,6 +175,7 @@ Posts.addField({
     label: "Exit Strategies",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]
@@ -174,6 +188,7 @@ Posts.addField({
     label: "Existing Data",
     min: 0,
     max: 2,
+    defaultValue: 0,
     type: Number,
     optional: true,
     editableBy: ["member", "admin"]

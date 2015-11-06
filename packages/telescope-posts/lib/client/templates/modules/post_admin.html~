@@ -7,7 +7,7 @@
         <span title="{{_ 'score'}}">{{{icon "score"}}} {{shortScore}} <span class="sr-only">{{_ "score"}}</span></span>
         <span title="{{_ 'clicks'}}">{{{icon "clicks"}}} {{clickCount}} <span class="sr-only">{{_ "clicks"}}</span></span>
         <span title="{{_ 'views'}}">{{{icon "views"}}} {{viewCount}} <span class="sr-only">{{_ "views"}}</span></span>
-        <span title="{{_ 'pipeline'}}">{{{icon "popularity"}}} {{pipelineScore}} <span class="sr-only">{{_ "pipeline"}}</span></span>
+        <span title="{{_ 'pipeline'}}">{{{icon "views"}}} {{pipelineScore}} <span class="sr-only">{{_ "pipeline"}}</span></span>
       </div>
 
       <div class="post-admin-actions">

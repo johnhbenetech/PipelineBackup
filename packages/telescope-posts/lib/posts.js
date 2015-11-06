@@ -105,6 +105,22 @@ Posts.schema = new SimpleSchema({
     type: Date,
     optional: true
   },
+
+
+
+
+
+  /**
+    Computed pipeline score
+  */
+  pipelineScore: {
+    type: Number,
+    optional: true
+  },
+
+
+
+
   /**
     Count of how many times the post's link was clicked
   */

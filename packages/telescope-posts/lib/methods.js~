@@ -37,7 +37,6 @@ Posts.submit = function (post) {
     viewCount: 0,
     baseScore: 0,
     score: 0,
-    pipelineScore: 10,
     inactive: false,
     sticky: false,
     status: Posts.getDefaultStatus()

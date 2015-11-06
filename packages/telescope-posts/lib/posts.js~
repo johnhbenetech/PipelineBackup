@@ -38,7 +38,7 @@ Posts.schema = new SimpleSchema({
     max: 500,
     editableBy: ["member", "admin"],
     autoform: {
-      type: "bootstrap-url"
+      type: "bootstrap-url",
       omit: true
     }
   },
