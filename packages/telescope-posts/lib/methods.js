@@ -34,10 +34,10 @@ Posts.submit = function (post) {
     downvotes: 0,
     commentCount: 0,
     clickCount: 0,
+    pipelineScore: 0,
     viewCount: 0,
     baseScore: 0,
     score: 0,
-    pipelineScore: 10,
     inactive: false,
     sticky: false,
     status: Posts.getDefaultStatus()

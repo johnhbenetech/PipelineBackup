@@ -41,14 +41,6 @@ var viewsMenuItems = [
     description: 'future_scheduled_posts',
     adminOnly: true
   },
-  {
-    route: Posts.getRoute,
-    name: 'pipeline',
-    description: 'pipelinescore'
-  },
-
-
-
 ];
 
 // add label & description i18n functions
