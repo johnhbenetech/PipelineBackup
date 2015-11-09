@@ -41,12 +41,22 @@ Posts.views.add("top", function (terms) {
 /**
  * Pipeline view
  */
-Posts.views.add("pipeline", function (terms) {
+Posts.views.add("Pipeline Raw", function (terms) {
   return {
     options: {sort: {sticky: -1, pipelineScore: -1}}
   };
 });
 
+
+
+/**
+ * Weighted Pipeline view
+ */
+Posts.views.add("Pipeline Weighted", function (terms) {
+  return {
+    options: {sort: {sticky: -1, pipelineWeightedScore: -1}}
+  };
+});
 
 
 
