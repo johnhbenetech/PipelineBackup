@@ -5,4 +5,5 @@
     </div>
   </div>
 {{this.pipelineScore}}
+{{this.pipelineWeightedScore}}
 </template>

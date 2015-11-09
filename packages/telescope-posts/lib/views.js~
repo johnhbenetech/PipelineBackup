@@ -41,7 +41,7 @@ Posts.views.add("top", function (terms) {
 /**
  * Pipeline view
  */
-Posts.views.add("Pipeline Raw", function (terms) {
+Posts.views.add("PipelineRaw", function (terms) {
   return {
     options: {sort: {sticky: -1, pipelineScore: -1}}
   };
@@ -52,7 +52,7 @@ Posts.views.add("Pipeline Raw", function (terms) {
 /**
  * Weighted Pipeline view
  */
-Posts.views.add("Pipeline Weighted", function (terms) {
+Posts.views.add("PipelineWeighted", function (terms) {
   return {
     options: {sort: {sticky: -1, pipelineWeightedScore: -1}}
   };
