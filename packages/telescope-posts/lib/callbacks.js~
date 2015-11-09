@@ -70,3 +70,19 @@ function setPostedAt (post) {
   }
 }
 Telescope.callbacks.add("postEditAsync", setPostedAt);
+
+
+
+function setPipelineScore (post) {
+   Posts.update(post._id, {$set: {pipelineScore: post.impact+post.need+post.missionfit+post.legality+post.currentmoney+post.futuremoney+post.cost+post.talent+post.technicalrisk+post.internalchampion+post.communityofusers+post.communityofpartners+post.portfoliofit+post.exitstrategies+post.existingdata}});
+}
+Telescope.callbacks.add("postSubmitAsync", setPipelineScore);
+Telescope.callbacks.add("postEditAsync", setPipelineScore);
+
+
+
+
+
+
+
+

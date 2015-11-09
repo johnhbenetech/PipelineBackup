@@ -4,6 +4,5 @@
       <span>{{oneBasedRank}}</span>
     </div>
   </div>
-1
 {{this.pipelineScore}}
 </template>
