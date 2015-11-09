@@ -43,9 +43,14 @@ var viewsMenuItems = [
   },
   {
     route: Posts.getRoute,
-    name: 'pipeline',
-    description: 'pipelinescore'
+    name: 'Pipeline Weighted',
+    description: 'pipeline weighted score'
   },
+  {
+    route: Posts.getRoute,
+    name: 'Pipeline Raw',
+    description: 'pipeline raw score'
+  }
 
 
 

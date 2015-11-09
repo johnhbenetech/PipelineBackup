@@ -159,7 +159,7 @@ Posts.addField({
 Posts.addField({
   fieldName: 'portfoliofit',
   fieldSchema: {
-    label: "Portfolio Fit",
+    label: "Program Fit",
     min: 0,
     max: 2,
     defaultValue: 0,

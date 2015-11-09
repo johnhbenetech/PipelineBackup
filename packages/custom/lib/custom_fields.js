@@ -79,9 +79,9 @@ Posts.addField({
 });
 
 Posts.addField({
-  fieldName: 'cost',
+  fieldName: 'portfoliofit',
   fieldSchema: {
-    label: "Cost",
+    label: "Program Fit",
     min: 0,
     max: 2,
     defaultValue: 0,
@@ -90,6 +90,7 @@ Posts.addField({
     editableBy: ["member", "admin"]
   }
 });
+
 
 Posts.addField({
   fieldName: 'talent',
@@ -108,19 +109,6 @@ Posts.addField({
   fieldName: 'technicalrisk',
   fieldSchema: {
     label: "Technical Risk",
-    min: 0,
-    max: 2,
-    defaultValue: 0,
-    type: Number,
-    optional: true,
-    editableBy: ["member", "admin"]
-  }
-});
-
-Posts.addField({
-  fieldName: 'internalchampion',
-  fieldSchema: {
-    label: "Internal Champion",
     min: 0,
     max: 2,
     defaultValue: 0,
@@ -156,10 +144,25 @@ Posts.addField({
   }
 });
 
+
+
 Posts.addField({
-  fieldName: 'portfoliofit',
+  fieldName: 'cost',
   fieldSchema: {
-    label: "Program Fit",
+    label: "Cost",
+    min: 0,
+    max: 2,
+    defaultValue: 0,
+    type: Number,
+    optional: true,
+    editableBy: ["member", "admin"]
+  }
+});
+
+Posts.addField({
+  fieldName: 'internalchampion',
+  fieldSchema: {
+    label: "Internal Champion",
     min: 0,
     max: 2,
     defaultValue: 0,
