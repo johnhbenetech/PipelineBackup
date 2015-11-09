@@ -121,7 +121,7 @@ Posts.schema = new SimpleSchema({
   /**
     Weighted pipeline score
   */
-  pipelineScoreWeighted: {
+  pipelineWeightedScore: {
     type: Number,
     optional: true
   },

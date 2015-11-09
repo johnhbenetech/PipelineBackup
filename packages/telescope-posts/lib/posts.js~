@@ -118,6 +118,14 @@ Posts.schema = new SimpleSchema({
     optional: true
   },
 
+  /**
+    Weighted pipeline score
+  */
+  pipelineScoreWeighted: {
+    type: Number,
+    optional: true
+  },
+
 
 
 

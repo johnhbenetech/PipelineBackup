@@ -80,6 +80,14 @@ Telescope.callbacks.add("postSubmitAsync", setPipelineScore);
 Telescope.callbacks.add("postEditAsync", setPipelineScore);
 
 
+function setPipelineWeightedScore (post) {
+   Posts.update(post._id, {$set: {pipelineWeightedScore: 4*(post.impact+post.need+post.missionfit+post.legality)+3*(post.currentmoney+post.futuremoney)+2*(post.talent+post.technicalrisk+post.communityofusers+post.communityofpartners+post.portfoliofit)+post.cost+post.internalchampion+post.exitstrategies+post.existingdata}});
+}
+Telescope.callbacks.add("postSubmitAsync", setPipelineWeightedScore);
+Telescope.callbacks.add("postEditAsync", setPipelineWeightedScore);
+
+
+
 
 
 

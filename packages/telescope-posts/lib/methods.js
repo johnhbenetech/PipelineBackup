@@ -35,6 +35,7 @@ Posts.submit = function (post) {
     commentCount: 0,
     clickCount: 0,
     pipelineScore: 0,
+    pipelineWeightedScore: 0,
     viewCount: 0,
     baseScore: 0,
     score: 0,

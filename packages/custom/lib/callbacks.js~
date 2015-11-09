@@ -2,7 +2,7 @@
 //post.pipelineScore = post.impact+post.need+post.missionfit+post.legality+post.currentmoney+post.futuremoney+post.cost+post.talent+post.technicalrisk+post.internalchampion+post.communityofusers+post.communityofpartners+post.portfoliofit+post.exitstrategies+post.existingdata;
 
 function pipelineCal (post) {
-   alert(post.pipelineScore);
+   alert(4*(post.impact+post.need+post.missionfit+post.legality)+3*(post.currentmoney+post.futuremoney)+2*(post.talent+post.technicalrisk+post.communityofusers+post.communityofpartners+post.portfoliofit)+post.cost+post.internalchampion+post.exitstrategies+post.existingdata);
    return post;}
 
 Telescope.callbacks.add("postSubmitClient", pipelineCal);
