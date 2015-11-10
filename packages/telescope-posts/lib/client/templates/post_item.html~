@@ -1,5 +1,4 @@
 <template name="post_item">
-  <div> Helloitem </div>
   {{> modules zone="postComponents" zoneClass=postClass moduleClass="post-module" wrapperId=_id moduleData=post}}
-  <div> postitem2 </div>
+hello
 </template>
