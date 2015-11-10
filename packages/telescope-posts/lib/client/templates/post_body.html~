@@ -1,4 +1,4 @@
 <template name="post_body">
-  <div>"Hello2"</div>
   <div class="post-body markdown" aria-live="polite">{{{htmlBody}}}</div>
+  <div>HELLO</div>
 </template>
