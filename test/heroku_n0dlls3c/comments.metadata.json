@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"heroku_n0dlls3c.comments"},{"v":1,"key":{"postId":1},"name":"postId_1","ns":"heroku_n0dlls3c.comments","safe":true},{"v":1,"key":{"parentCommentId":1},"name":"parentCommentId_1","ns":"heroku_n0dlls3c.comments","safe":true}]}
